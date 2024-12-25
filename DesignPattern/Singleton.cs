@@ -15,7 +15,6 @@ namespace DesignPattern
         private static readonly Object obj=new object();
         private Singleton() {
             counter++;
-
             Console.WriteLine("Counter value" + counter.ToString());
         }
 
